@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="600" viewBox="0 0 1050 600">
+<rect width="1050" height="600" rx="28" fill="#111111"/>
+<rect x="700" y="0" width="350" height="600" rx="28" fill="#d7ff3f"/>
+<text x="70" y="110" font-family="Arial" font-size="28" font-weight="700" fill="#d7ff3f">RESUME.</text>
+<text x="70" y="250" font-family="Arial" font-size="58" font-weight="800" fill="white">Баканов Максим</text>
+<text x="70" y="300" font-family="Arial" font-size="25" fill="#cccccc">Junior Developer</text>
+<text x="70" y="410" font-family="Arial" font-size="22" fill="white">+7 (985) 935-53-28</text>
+<text x="70" y="450" font-family="Arial" font-size="22" fill="white">x1007x@yandex.ru</text>
+<text x="755" y="105" font-family="Arial" font-size="22" font-weight="700" fill="#111">МОЁ РЕЗЮМЕ</text>
+<rect x="755" y="155" width="240" height="240" fill="white"/>
+<text x="785" y="290" font-family="Arial" font-size="25" font-weight="700" fill="#111">QR-КОД</text>
+<text x="755" y="465" font-family="Arial" font-size="17" fill="#111">Заменить после публикации</text>
+<text x="755" y="492" font-family="Arial" font-size="17" fill="#111">сайта на настоящий QR</text>
+</svg>

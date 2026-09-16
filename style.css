@@ -1,0 +1,45 @@
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#111;--muted:#6f6f73;--paper:#f5f4ef;--line:#d9d8d2;--accent:#d7ff3f;--dark:#111}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(245,244,239,.94);backdrop-filter:blur(14px);z-index:10}
+.brand{font-size:22px;font-weight:800;letter-spacing:-1px}.brand span{color:#83a600}
+nav{display:flex;gap:25px;font-size:13px;font-weight:600}
+nav a:hover{opacity:.55}
+.nav-button{border:1px solid var(--ink);padding:10px 18px;border-radius:30px;font-size:13px;font-weight:700}
+.hero{min-height:calc(100vh - 76px);padding:8vw 10vw;display:grid;grid-template-columns:1.15fr .85fr;gap:5vw;align-items:center}
+.eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;margin-bottom:20px}
+.hero h1{font-size:clamp(56px,8vw,120px);line-height:.9;letter-spacing:-6px;margin-bottom:24px}
+.hero h2{font-size:clamp(24px,3vw,42px);font-weight:500;letter-spacing:-2px}
+.lead{max-width:620px;color:var(--muted);font-size:17px;margin:22px 0 30px}
+.hero-actions{display:flex;gap:12px}.button{padding:14px 24px;border-radius:30px;font-weight:700;font-size:14px}
+.primary{background:var(--ink);color:white}.secondary{border:1px solid var(--ink)}
+.quick-info{display:flex;gap:22px;flex-wrap:wrap;margin-top:34px;color:var(--muted);font-size:13px}
+.portrait-wrap{position:relative;justify-self:end;width:min(420px,100%)}
+.portrait{aspect-ratio:4/5;background:linear-gradient(135deg,#ddd,#b9b9b4);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#555;border-radius:4px;box-shadow:22px 22px 0 var(--ink)}
+.portrait span{font-size:32px;font-weight:800}.portrait small{margin-top:8px}
+.floating-card{position:absolute;bottom:-30px;left:-35px;background:var(--accent);padding:18px 22px;display:flex;gap:14px;align-items:center;box-shadow:8px 8px 0 var(--ink)}
+.floating-card strong{font-size:30px}.floating-card span{font-size:11px;font-weight:800;text-transform:uppercase}
+.section{padding:110px 10vw;border-top:1px solid var(--line)}
+.section.dark{background:var(--dark);color:white;border-color:#333}.section.soft{background:#eae9e3}
+.section-heading{display:flex;align-items:baseline;gap:18px;margin-bottom:55px}
+.section-heading span{font-size:12px;font-weight:800;color:#8a8a85}.section-heading h2{font-size:clamp(38px,5vw,66px);letter-spacing:-3px;line-height:1}
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:10vw}
+.big-text{font-size:clamp(25px,3vw,40px);line-height:1.25;letter-spacing:-1.4px}
+.facts{border-top:1px solid var(--line)}
+.facts div{padding:18px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px}.facts span{color:var(--muted);font-size:13px}.facts strong{font-size:14px}
+.timeline-card{display:grid;grid-template-columns:180px 1fr;gap:30px;padding:35px 0;border-top:1px solid #3c3c3c;border-bottom:1px solid #3c3c3c}
+.year{color:var(--accent);font-weight:800;font-size:14px}.timeline-card h3{font-size:25px;margin-bottom:12px}.timeline-card p{color:#bdbdbd;margin-top:4px}
+.skills-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.skill-card{min-height:250px;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.skill-number{font-size:12px;color:var(--muted)}
+.skill-card h3{font-size:24px;margin:60px 0 22px;letter-spacing:-1px}
+.tags{display:flex;gap:8px;flex-wrap:wrap}.tags span{font-size:11px;font-weight:700;border:1px solid #c9c8c2;padding:6px 9px;border-radius:20px}
+.experience{display:grid;grid-template-columns:180px 1fr;gap:30px;max-width:900px}.experience-date{font-size:12px;font-weight:800}.experience h3{font-size:29px}.muted{color:var(--muted);margin:5px 0 20px}.experience ul{padding-left:18px}.experience li{margin:7px 0}
+.projects-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}.project{padding:34px;border:1px solid var(--line);min-height:360px;display:flex;flex-direction:column}.project:hover{transform:translateY(-4px);transition:.2s;background:white}
+.project-top{display:flex;justify-content:space-between;font-size:11px;font-weight:800;color:var(--muted)}.project h3{font-size:35px;letter-spacing:-1.5px;margin:70px 0 14px}.project p{color:var(--muted);max-width:540px}.project .tags{margin-top:25px}.project-link{margin-top:auto;padding-top:28px;font-weight:800;font-size:13px}
+.contact-section{background:var(--accent);padding:100px 10vw;display:grid;grid-template-columns:1fr 1fr;gap:10vw}.contact-section h2{font-size:clamp(55px,7vw,100px);line-height:.85;letter-spacing:-6px}.contact-section em{font-style:normal;-webkit-text-stroke:1.5px #111;color:transparent}
+.contact-list{border-top:1px solid #111}.contact-list a{display:flex;justify-content:space-between;gap:20px;padding:23px 0;border-bottom:1px solid #111}.contact-list span{font-size:12px;color:#444}.contact-list strong{font-size:14px}
+footer{padding:25px 6vw;display:flex;justify-content:space-between;font-size:11px;color:var(--muted);background:var(--paper)}
+@media(max-width:850px){nav{display:none}.topbar{padding:0 5vw}.hero{grid-template-columns:1fr;padding:70px 7vw;gap:60px}.portrait-wrap{justify-self:center;max-width:360px}.hero h1{letter-spacing:-4px}.section{padding:75px 7vw}.about-grid,.contact-section{grid-template-columns:1fr;gap:50px}.skills-grid{grid-template-columns:1fr 1fr}.projects-grid{grid-template-columns:1fr}.timeline-card,.experience{grid-template-columns:1fr;gap:10px}.contact-section{padding:75px 7vw}.contact-section h2{letter-spacing:-4px}}
+@media(max-width:520px){.nav-button{display:none}.hero{padding:55px 6vw}.hero h1{font-size:58px}.lead{font-size:15px}.quick-info{flex-direction:column;gap:7px}.section{padding:60px 6vw}.skills-grid{grid-template-columns:1fr}.skill-card{min-height:190px}.skill-card h3{margin-top:35px}.project{min-height:320px}.project h3{margin-top:50px}.contact-section{padding:60px 6vw}.contact-section h2{font-size:60px}.contact-list a{flex-direction:column;gap:4px}footer{flex-direction:column;gap:8px}}

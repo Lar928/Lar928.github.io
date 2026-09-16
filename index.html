@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Персональный сайт-резюме студента">
+  <title>Моё резюме — Студент</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home">RESUME<span>.</span></a>
+    <nav>
+      <a href="#about">Обо мне</a>
+      <a href="#education">Образование</a>
+      <a href="#skills">Навыки</a>
+      <a href="#experience">Опыт</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="nav-button" href="#contacts">Связаться</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">СТУДЕНТ • IT • РАЗВИТИЕ</p>
+        <h1>Баканов Максим</h1>
+        <h2>Junior Developer</h2>
+        <p class="lead">
+          Начинающий специалист, который развивает практические навыки
+          программирования и стремится применять знания в реальных проектах.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Мои проекты</a>
+          <a class="button secondary" href="#contacts">Контакты</a>
+        </div>
+        <div class="quick-info">
+          <span>📍 Москва</span>
+          <span>🎓 Студент</span>
+          <span>💼 Открыт к практике</span>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait">
+          <span>ФОТО</span>
+          <small>замените на свою фотографию</small>
+        </div>
+        <div class="floating-card">
+          <strong>01</strong>
+          <span>Учебные<br>проекты</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-heading">
+        <span>01</span>
+        <h2>Обо мне</h2>
+      </div>
+      <div class="about-grid">
+        <p class="big-text">
+          Я студент, заинтересованный в сфере информационных технологий.
+          Постоянно изучаю новые инструменты, работаю над учебными проектами
+          и развиваю навыки командной и самостоятельной разработки.
+        </p>
+        <div class="facts">
+          <div><span>Возраст</span><strong>19 лет</strong></div>
+          <div><span>Город</span><strong>Москва</strong></div>
+          <div><span>Цель</span><strong>Junior Developer</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="education">
+      <div class="section-heading">
+        <span>02</span>
+        <h2>Образование</h2>
+      </div>
+      <article class="timeline-card">
+        <div class="year">2023 — 2027</div>
+        <div>
+          <h3>Колледж Малого Бизнеса №4</h3>
+          <p>Специальность: Информационные системы и Программирование</p>
+          <p>Квалификация: специалист среднего звена</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <span>03</span>
+        <h2>Навыки</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Языки</h3>
+          <div class="tags"><span>C#</span><span>Python</span><span>SQL</span></div>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Технологии</h3>
+          <div class="tags"><span>.NET</span><span>WPF</span><span>HTML/CSS</span></div>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Базы данных</h3>
+          <div class="tags"><span>PostgreSQL</span><span>SQL</span></div>
+        </article>
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <h3>Инструменты</h3>
+          <div class="tags"><span>Git</span><span>GitHub</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section soft" id="experience">
+      <div class="section-heading">
+        <span>04</span>
+        <h2>Опыт и практика</h2>
+      </div>
+      <article class="experience">
+        <div class="experience-date">ПРАКТИКА</div>
+        <div>
+          <h3>Учебная практика</h3>
+          <p class="muted">Колледж Малого Бизнеса №4</p>
+          <ul>
+            <li>Разработка и тестирование учебных программ.</li>
+            <li>Работа с базами данных и SQL-запросами.</li>
+            <li>Использование Git для хранения исходного кода.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading">
+        <span>05</span>
+        <h2>Проекты</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-top"><span>PROJECT 01</span><span>2026</span></div>
+          <h3>Сайт-резюме</h3>
+          <p>Адаптивный одностраничный сайт с информацией о студенте, навыках, образовании и проектах.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <a href="#" class="project-link">GitHub →</a>
+        </article>
+        <article class="project">
+          <div class="project-top"><span>PROJECT 02</span><span>2026</span></div>
+          <h3>Учебное приложение</h3>
+          <p>Учебный проект для демонстрации навыков программирования, работы с данными и пользовательским интерфейсом.</p>
+          <div class="tags"><span>C#</span><span>.NET</span><span>SQL</span></div>
+          <a href="#" class="project-link">GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacts">
+      <div>
+        <p class="eyebrow">06 • КОНТАКТЫ</p>
+        <h2>Давайте<br><em>общаться.</em></h2>
+      </div>
+      <div class="contact-list">
+        <a href="tel:+79990000000"><span>Телефон</span><strong>+7 (985) 935-53-28</strong></a>
+        <a href="mailto:student@example.com"><span>E-mail</span><strong>x1007x@yandex.ru</strong></a>
+        <a href="https://github.com/" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/Lar928</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Баканов Максим</span>
+    <span>Сайт-резюме • Визитная карточка • QR</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
